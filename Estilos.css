@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #F4EEE0;
+}
+
+.header{
+    background-color: #393646;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.nav{
+    background-color: #393646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    margin: 10px 0px ;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+header .logo img{
+    height: 95px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.titulo{
+    color: white;
+    font-size: xx-large;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: 0.3s;
+}
+
+.nav-links li:hover{
+    transform: scale(1.2)
+}
+
+.nav-links a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: #F4EEE0;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #393646;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.ingresar{
+    width: 400px;
+    background: #393646;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+} 
+
+.recargar{
+    width: 700px;
+    background: #393646;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 50px;
+} 
+
+.formularios{
+    height: 420px;
+}
+
+.ingresar h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 100%;
+    background: #F4EEE0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+}
+
+.boton{
+    width: 100%;
+    background: #F4EEE0;
+    border: none;
+    padding: 10px;
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.boton{
+    cursor: pointer
+}
+
+.index{
+    float: left;
+}
+
+.contenido{
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+
+.contenido1{
+    float: left;
+    margin: 0px 5px;
+}
+
+.contenido2{
+    float: right;
+    margin: 0px 5px;
+}
+
+.contenido-section{
+    width: 480px;
+    height: 500px;
+    background: #393646;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-content: center;
+} 
+
+.imagen{
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.imagen2{
+    width: 200px;
+    height: auto;
+}
+
+.contenido-section h1{
+    color: white;
+    font-size: xx-large;
+} 
+
+.texto{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+} 
+
+.lista li{
+    color: white;
+    font-size: 20px;
+    margin: 0px 30px;
+}
+
+.footer{
+    height: 170px;
+    background-color: #393646;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.footer b{
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.nequi{
+    width: 800px;
+    height: 600px;
+    background-color: #393646;
+    margin: 60px auto;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-content: center;
+    padding: 30px;
+}
+
+.daviplata{
+    width: 800px;
+    height: 600px;
+    background-color: #393646;
+    margin: 60px auto;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-content: center;
+    padding: 30px;
+}
+
+.nequi-consultar{
+    width: 800px;
+    height: 400px;
+    background-color: #393646;
+    margin: 60px auto;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-content: center;
+    padding: 30px;
+}
+
+.entrar{
+    width: 500px;
+    background: #F4EEE0;
+    border: none;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
